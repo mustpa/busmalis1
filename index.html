@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+         <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0, user-scalable=no">
+         <link rel="stylesheet" href="style.css">
+			<script src="https://kit.fontawesome.com/440edfafb2.js" crossorigin="anonymous"></script>
+            <title>Busmalis</title>
+				<style>@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+*{padding:0;
+margin:0;
+font-family:'Montserrat',sans-serif;
+box-sizing:border-box;}
+.div1{height:100vh;
+      width:100%;
+      background-color:#333;
+      background-size:cover;
+      background-position:center;}
+nav{ display:flex;
+     align-items:center;
+	  justify-content:space-between;
+	  padding-top:45px;
+	  padding-left:8%;
+	  padding-right:8%;}
+.logo{color:white;
+      font-size:35px;
+		letter-spacing:1px;
+		cursor:pointer;}
+span{color:blue;}
+nav ul li{list-style-type:none;
+          display:inline-block;
+			 padding:10px 25px;}
+nav ul li a{color:white;
+            text-decoration:none;
+				font-weight:800;
+				text-transform:capitalize;}
+nav ul li a:hover{color:blue;
+                  transition: .4s;}
+.button{background-color:blue;
+        color:white;
+		  text-decoration:none;
+		  border:2px solid transparent;
+		  font-weight:bold;
+		  padding:10px 25px;
+		  border-radius:30px;
+		  transition:.4s;}	
+.button:hover{background-color:transparent;
+              border-color:white;}	
+.content{top:50%;
+     left:8%;
+	  position:absolute;
+	  transform:translateY(-50%);}
+h1{color:white;
+   font-size:75px;
+	margin:20px 0px 20px;}
+h3{color:white;
+   font-size:25px;
+	margin-bottom:30px;}	
+h4{color:blue;
+   font-size:20px;
+	letter-spacing:2px;}	
+.forms form{width:380px;
+            position:relative;
+				max-width:100%;}
+.forms label{color:white;
+             font-weight:bold;
+				 margin-bottom:10px;
+				 }
+.forms form input:first-child{display:inline-block
+                              width:100%;
+						            padding:10px 180px 10px 20px;
+						            border:2px solid blue;
+						            outline:none;
+						            border-radius:20px;}
+.forms form input:last-child{display:inline-block;
+                             border-radius:20px;
+									  position:absolute;
+									  outline:none;
+									  border:none;
+									  padding:8px 30px;
+									  background-color:blue;
+									  color:white;
+									  top:4px;
+									  right:5px;
+									  text-height:bold;}		
+.forms form input:last-child:active{background-color:transparent;
+                                   border:1px solid blue;
+											  bottom:3px;
+											  color:blue;}	
+.about{width:100%;
+       padding:90px 20px;
+		 background-color:#33333333;
+		 position:relative;}
+.about img{height:auto;
+           width:430px;}
+.text{width:435px;}		
+.main{width:1130px;
+      max-width:95%;
+		margin:0 auto;
+		display:flex;
+		align-items:center;
+		justify-content:space-around;}
+.button2{background-color:blue;
+        color:white;
+		  text-decoration:none;
+		  border:2px solid transparent;
+		  font-weight:bold;
+		  padding:7px 20px;
+		  border-radius:30px;
+		  transition:.4s;}	
+.button2:hover{background-color:transparent;
+              border-color:#333;
+				  color:#333;}
+.text h2{font-size:75px;
+			margin-bottom:10px;}	
+.text h5{font-size:22px;
+         margin-bottom:10px;
+			letter-spacing:2px;}	
+.services{background:#333;
+          width:100%;
+			 padding:100px 0px;
+			 position:relative;}
+.title h2{font-size:75px;
+          width:1130px;
+			 color:white;
+			 margin:30px auto;
+			 text-align:center;}
+.box{align-items:center;
+     justify-content:center;
+	  display:flex;
+	  min-height:400px;
+	  position:relative;}
+.card{height:365px;
+      width:335px;
+		padding:20px 35px;
+		text-align:center;
+		position:relative;
+		border-radius:20px;
+		overflow:hidden;
+		background:white;
+		margin:0px 10px;}
+.card i{font-size:40px;
+        display:block;
+		  text-align:center;
+		  margin:25px 0px;
+		  color:blue;}	
+h5{font-size:25px;
+   margin-bottom:15px;}	
+footer{padding:20px 10px;
+       background-color:#33333333;
+		 }
+.footer{text-align:center;
+        font-size:30px;
+		  text-transform:capitalize;}</style>
+        </head>
+    <body>
+        <div class="div1">
+		   <nav>
+            <h1 class="logo">Bus<span>malis</span></h1>
+            <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="#">Donate</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contacts</a></li>
+            </ul>
+                    <a href="#" class="button">Subscribe</a>
+         </nav>
+			<div class="content">
+			<h4>Hello,My Name Is</h4>
+			<h1>Aghad<span> Mustapha</span></h1>
+			<h3>I'm Your Guide To The Fortune</h3>
+			<div class="forms">
+			<form>
+			<input type="email" name="email" id="email" placeholder="Enter Your Email">
+			<input type="submit" name="submit" value="Enter It" id="submit">
+			</form>
+              </div>
+			</div>
+			</div>
+			<section class="about">
+			<div class="main">
+			<img src="../html/mysite1.png">
+			<div class="text">
+			<h2>About<span> Me</span></h2>
+			<h5>An <mark>Ex Prisoner</mark></h5>
+			<p>"Prisoner 98B242. Convicted March 10, 1998 - Grand theft larceny, breaking and entering. Sentence: 10 years, up for parole in four.
+
+Since early childhood, Agamemnon Busmalis had a strange fascination with digging. Outside of prison, he was known as "The Mole", having been an expert at digging tunnels to commit various robberies. He has never been with a woman sexually, and is a huge fan of the children's show Miss Sally's Schoolyard. Every time the inmates are watching the show, Busmalis can be heard saying "This is the best Miss Sally ever." He is a childish old man, who has led a life as a loner and outcast. . He was named after a Greek hero, Agamemnon.</p>
+<br/>
+<a class="button2" href="https://www.facebook.com/profile.php?id=100084832814423" target="_blanck">Contact Me</a>
+</div>
+			</div>
+			</section>
+<div class="services">
+<div class="title">
+<h2>Our Services</h2>
+</div>
+<div class="box">
+<div class="card">
+<i class="fa-solid fa-bars"></i>
+<h5>Digging Course</h5>
+<div class="pra">
+<p>An experience of 22 years of digging is what you need for maitrise this fabulous skill.</p>
+<br/>
+<p style="text-align:center;">
+<a class="button2" href="#">Read More</a>
+</p>
+</div>
+</div>
+<div class="box">
+<div class="card">
+<i class="fa-solid fa-users"></i>
+<h5>Digging Course</h5>
+<div class="pra">
+<p>An experience of 22 years of digging is what you need for maitrise this fabulous skill.</p>
+<br/>
+<p style="text-align:center;">
+<a class="button2" href="#">Read More</a>
+</p>
+</div>
+</div>
+<div class="box">
+<div class="card">
+<i class="fa-solid fa-arrow-pointer"></i>
+<h5>Digging Course</h5>
+<div class="pra">
+<p>An experience of 22 years of digging is what you need for maitrise this fabulous skill.</p>
+<br/>
+<p style="text-align:center;">
+<a class="button2" href="#">Read More</a>
+</p>
+</div>
+</div>
+<div class="box">
+<div class="card">
+<i class="fa-solid fa-bell"></i>
+<h5>Digging Course</h5>
+<div class="pra">
+<p>An experience of 22 years of digging is what you need for maitrise this fabulous skill.</p>
+<br/>
+<p style="text-align:center;">
+<a class="button2" href="#" id="read-more">Read More</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+  </body>
+  <footer>
+  <p class="footer">all rights are reserved by busmalis company &copy</p>
+  </footer>
+    </html>
